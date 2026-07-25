@@ -9,7 +9,7 @@ const projects = [
         images: ["/projects/adaptatype.png"],
         tags: ["TypeScript", "React", "Tailwind CSS", "Vite", "Node.js", "Express.js"],
         githubUrl: "https://github.com/Zarar3/adapta-type",
-    }
+    },
     {
         id: 2,
         title: "Hospital Delirium Assessment Tool",
