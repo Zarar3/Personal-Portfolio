@@ -4,6 +4,14 @@ import { useState } from "react";
 const projects = [
     {
         id: 1,
+        title: "Adaptatype",
+        description: "A real-time adaptive typing trainer that analyzes user mistakes and dynamically generates practice strings targeting weak characters, patterns, and word combinations.",
+        images: ["/projects/adaptatype.png"],
+        tags: ["TypeScript", "React", "Tailwind CSS", "Vite", "Node.js", "Express.js"],
+        githubUrl: "https://github.com/Zarar3/adapta-type",
+    }
+    {
+        id: 2,
         title: "Hospital Delirium Assessment Tool",
         description: "Developed a microcontroller-based tool to assist hospitals in assessing patients for Hospital Induced Delirium, enhancing patient care and monitoring.",
         images: ["/projects/HID Pic.png"],
@@ -12,7 +20,7 @@ const projects = [
     },
 
     {
-        id: 2,
+        id: 3,
         title: "Full-Stack Sport Practicing Web Application",
         description: "Created a full-stack web application to help users practice and improve their sports skills through comparing videos of their own form in a selected sports to the best athletes in each respective sport.",
         images: [
@@ -25,7 +33,7 @@ const projects = [
     },
 
     {
-        id: 3,
+        id: 4,
         title: "LogDay",
         description: " LogDay is a full-stack web application designed to help users track and manage their daily activities, habits, and goals. It provides an intuitive interface for logging various aspects of daily life, such as exercise routines, meal plans, work tasks, and personal reflections. With features like customizable dashboards, data visualization, and goal-setting tools, LogDay empowers users to stay organized, motivated, and mindful of their daily progress.",
         images: [
